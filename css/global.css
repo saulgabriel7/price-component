@@ -26,6 +26,5 @@ h2{
 }
 
 body{
-    color: var(--Ligh-Gray);
-
+    background-color: var(--Light-Gray);
 }
