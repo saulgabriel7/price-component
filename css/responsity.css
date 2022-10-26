@@ -1,0 +1,49 @@
+@media (min-width: 650px){
+    .inferior{
+        display: flex;
+        align-items: center;
+    }
+
+    .esquerda, .direita{
+        width: 100%;
+        padding: 2.5rem;
+    }
+
+    main{
+        max-width: 640px;
+        padding: 0;
+    }
+
+    body{
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .superior{
+        border-top-left-radius: 8px;
+        padding: 40px;
+    }
+
+    h1{
+        size: 1.5rem;
+    }
+
+    .superior p:nth-child(1){
+        size: 18px;
+    }
+
+    .superiorp:nth-child(2){
+        size: 1rem;
+    }
+
+    .esquerda{
+        border-bottom-left-radius: 8px;
+    }
+
+    .direita{
+        border-bottom-left-radius:0;
+        border-bottom-right-radius: 8px;
+    }
+}
